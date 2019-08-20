@@ -40,3 +40,15 @@ def reduce_to_all_true (ary)
   
   return truth
 end
+
+def reduce_to_any_true(ary)
+  truth = false
+  
+  ary.each {|val|
+    if val
+      truth = true
+    end
+  }
+  
+  return truth
+end
