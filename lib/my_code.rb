@@ -33,6 +33,10 @@ def reduce_to_all_true (ary)
   truth = true
   
   ary.each { |val|
-    if val
-      
+    if not val
+      truth = false      
+    end
   }
+  
+  return truth
+end
