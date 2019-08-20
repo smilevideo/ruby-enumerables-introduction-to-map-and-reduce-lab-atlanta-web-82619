@@ -22,4 +22,3 @@ def map_to_square(ary)
   return new
 end
 
-asd
