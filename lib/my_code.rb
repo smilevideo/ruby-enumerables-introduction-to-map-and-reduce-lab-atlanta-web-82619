@@ -22,7 +22,7 @@ def map_to_square(ary)
   return new
 end
 
-def reduce_to_total(ary, start)
+def reduce_to_total(ary, start = 0)
   if start
     total = start
   else
