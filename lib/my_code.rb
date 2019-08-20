@@ -23,11 +23,7 @@ def map_to_square(ary)
 end
 
 def reduce_to_total(ary, start = 0)
-  if start
-    total = start
-  else
-    total = 0
-  end
+  total = start
   
   ary.each {|val| total += val}
   return total
