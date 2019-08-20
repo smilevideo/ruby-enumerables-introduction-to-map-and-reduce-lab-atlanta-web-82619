@@ -28,3 +28,11 @@ def reduce_to_total(ary, start = 0)
   ary.each {|val| total += val}
   return total
 end
+
+def reduce_to_all_true (ary)
+  truth = true
+  
+  ary.each { |val|
+    if val
+      
+  }
