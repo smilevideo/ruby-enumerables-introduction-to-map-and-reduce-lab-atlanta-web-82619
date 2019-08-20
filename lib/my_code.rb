@@ -21,3 +21,4 @@ def map_to_square(ary)
   ary.each_with_index {|val,index| new[index] = val ** 2}
   return new
 end
+
