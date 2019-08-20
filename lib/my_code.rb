@@ -15,3 +15,9 @@ def map_to_double(ary)
   ary.each_with_index {|val,index| new[index] = 2 * val}
   return new
 end
+
+def map_to_square(ary)
+  new = []
+  ary.each_with_index {|val,index| new[index] = val ** 2}
+  return new
+end
