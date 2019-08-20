@@ -2,5 +2,5 @@
 def map_to_negativize(ary)
   new = []
   
-  ary.each {|val| 
+  ary.each {|val, index|  
 end
