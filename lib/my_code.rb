@@ -5,3 +5,7 @@ def map_to_negativize(ary)
   ary.each_with_index {|val, index| new[index] = -val} 
   return new
 end
+
+def map_to_no_change(ary)
+  return ary
+end
